@@ -3,6 +3,8 @@
 systemctl enable docker
 systemctl start docker
 
+mkdir -p /root/eclipse-temurin-with-maven
+
 cat <<EOF > /root/eclipse-temurin-with-maven/Dockerfile
 FROM eclipse-temurin:18-jdk-alpine
 
