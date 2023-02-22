@@ -15,4 +15,4 @@ ENV PATH=$PATH:$MAVEN_HOME/bin
 EOF
 
 cd /root/eclipse-temurin-with-maven
-docker build -t eclipse-temurin:18-jdk-alpine-maven-3.8 .
+docker build -t eclipse-temurin:18-jdk-alpine-maven-3.8 --network host .
