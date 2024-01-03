@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 systemctl enable docker
 systemctl start docker
